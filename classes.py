@@ -1,40 +1,40 @@
 class Gato :
     def __init__ (self, Nome, Idade, Raca, Cor, Peso):
-        self.__Nome__ = Nome 
-        self.__Idade__= Idade
-        self.__Raca__= Raca
-        self.__Cor__= Cor
-        self.__Peso__= Peso
+        self.__Nome = Nome 
+        self.__Idade= Idade
+        self.__Raca= Raca
+        self.__Cor= Cor
+        self.__Peso= Peso
 
     def getNome(self):
-        return self.__Nome__
+        return self.__Nome
     
     def getIdade(self):
-        return self.__Idade__
+        return self.__Idade
     
     def getRaca(self):
-        return self.__Raca__
+        return self.__Raca
     
     def getCor(self):
-        return self.__Cor__
+        return self.__Cor
     
     def getPeso(self):
-        return self.__Peso__
+        return self.__Peso
     
 
 class Cachorro :
     def __init__ (self, Nome, Idade, Raca, Cor, Peso):
-        self.__Nome__ = Nome 
-        self.__Idade__= Idade
-        self.__Raca__= Raca
-        self.__Cor__= Cor
-        self.__Peso__= Peso
+        self.__Nome = Nome 
+        self.__Idade= Idade
+        self.__Raca= Raca
+        self.__Cor= Cor
+        self.__Peso= Peso
 
 
 class Peixe :
     def __init__ (self, Nome, Idade, Raca, Cor, Peso):
-        self.__Nome__ = Nome 
-        self.__Idade__= Idade
-        self.__Raca__= Raca
-        self.__Cor__= Cor
-        self.__Peso__= Peso
+        self.__Nome = Nome 
+        self.__Idade= Idade
+        self.__Raca= Raca
+        self.__Cor= Cor
+        self.__Peso= Peso
