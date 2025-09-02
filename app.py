@@ -1,4 +1,4 @@
-from app import *
+
 from classes import *
 from funcion import*
 
@@ -20,12 +20,7 @@ while True:
         Peso=float(input("Insira o peso:"))
 
         pets[len(pets)]= Gato (Nome=Nome, Idade =Idade, Raca=Raca, Cor=Cor, Peso=Peso)
-        x = pets[Nome]
-        print(x.getNome())
-        print(x.getIdade())
-        print(x.getRaca())
-        print(x.getCor())
-        print(x.getPeso())
-
+        print(pets)
+        
        
        
