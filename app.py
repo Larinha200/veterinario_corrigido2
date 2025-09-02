@@ -2,14 +2,16 @@ from app import *
 from classes import *
 from funcion import*
 
-pet1 = {}       
+pets = {}       
 
 menu()
 resp=int(input("---->"))
 id=1
-while resp !=0:
+while True:
     if resp == 1:
-       if resp == 1:
+       menu2()
+       resp2=int(input("---->"))
+       if resp2 == 1:
            
         Nome= input("Insira o nome:") 
         Idade=int(input("Insira a idade:"))
@@ -17,8 +19,8 @@ while resp !=0:
         Cor=input("Insira a cor:")
         Peso=float(input("Insira o peso:"))
 
-        pet1[Nome]= Gato (Nome, Idade, Raca, Cor, Peso)
-        x = pet1[Nome]
+        pets[len(pets)]= Gato (Nome=Nome, Idade =Idade, Raca=Raca, Cor=Cor, Peso=Peso)
+        x = pets[Nome]
         print(x.getNome())
         print(x.getIdade())
         print(x.getRaca())
