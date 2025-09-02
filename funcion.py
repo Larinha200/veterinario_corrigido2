@@ -10,4 +10,4 @@ def menu2():
     print("Qual animal é o seu?")
     print("1-Gato")
     print("2-Cachorro")
-    print("3-Peixe")
+    print("3-Cavalo")
