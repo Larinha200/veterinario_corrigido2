@@ -1,5 +1,5 @@
 
-from classes import *
+
 from funcion import*
 
 pets = {}       
