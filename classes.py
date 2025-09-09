@@ -31,6 +31,6 @@ class Cavalo(Animal) :
     def som(self):
         print("irrirrirrirri")
 
-class Gato(): 
+class Gato(Animal): 
     def mia(self):
         print("miau miau")
