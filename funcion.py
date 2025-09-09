@@ -1,5 +1,5 @@
 import os
-from classes import* 
+
 # menu 
 def menu():
     print("Bem vindo ")
