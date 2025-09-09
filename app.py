@@ -13,13 +13,13 @@ while True:
        resp2=int(input("---->"))
        if resp2 == 1:
            
-        Nome= input("Insira o nome:") 
-        Idade=int(input("Insira a idade:"))
-        Raca=input("Insira a raça:")
-        Cor=input("Insira a cor:")
-        Peso=float(input("Insira o peso:"))
+        nome= input("Insira o nome:") 
+        idade=int(input("Insira a idade:"))
+        raca=input("Insira a raça:")
+        cor=input("Insira a cor:")
+        peso=float(input("Insira o peso:"))
 
-        pets[len(pets)]= Gato (Nome, Idade , Raca, Cor, Peso)
+        pets[len(pets)]= Gato (Nome = nome, Idade = idade , Raca = raca, Cor = cor, Peso = peso)
         print(pets)
         
        
