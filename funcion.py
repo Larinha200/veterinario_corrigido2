@@ -1,3 +1,5 @@
+import os
+from classes import* 
 # menu 
 def menu():
     print("Bem vindo ")
@@ -11,3 +13,4 @@ def menu2():
     print("1-Gato")
     print("2-Cachorro")
     print("3-Cavalo")
+

@@ -3,6 +3,7 @@ from classes import *
 from funcion import*
 
 pets = {}       
+pets[len(pets)+1]= Gato('Nome', 'Idade', 'Raca', 'Cor', 'Peso')
 
 menu()
 resp=int(input("---->"))
@@ -19,8 +20,7 @@ while True:
         cor=input("Insira a cor:")
         peso=float(input("Insira o peso:"))
 
-        pets[len(pets)]= Gato (Nome = nome, Idade = idade , Raca = raca, Cor = cor, Peso = peso)
-        print(pets)
+        
         
        
        

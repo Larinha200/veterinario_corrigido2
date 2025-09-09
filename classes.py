@@ -5,6 +5,8 @@ class Animal():
         self.__raca= Raca
         self.__cor= Cor
         self.__peso= Peso
+    
+    
 
 
     def getNome(self):
@@ -27,6 +29,7 @@ class Cachorro(Animal):
     def latir(self):
         print(" au au ")
     
+    
 class Cavalo(Animal) :
     def som(self):
         print("irrirrirrirri")
@@ -34,3 +37,4 @@ class Cavalo(Animal) :
 class Gato(Animal): 
     def mia(self):
         print("miau miau")
+    
