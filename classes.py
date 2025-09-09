@@ -24,13 +24,13 @@ class Animal():
     
 
 class Cachorro(Animal):
-    def latir():
+    def latir(self):
         print(" au au ")
     
 class Cavalo(Animal) :
-    def som():
+    def som(self):
         print("irrirrirrirri")
 
 class Gato(): 
-    def mia():
+    def mia(self):
         print("miau miau")

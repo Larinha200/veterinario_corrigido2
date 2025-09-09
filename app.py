@@ -19,7 +19,7 @@ while True:
         Cor=input("Insira a cor:")
         Peso=float(input("Insira o peso:"))
 
-        pets[len(pets)]= Gato (Nome=Nome, Idade =Idade, Raca=Raca, Cor=Cor, Peso=Peso)
+        pets[len(pets)]= Gato (Nome, Idade , Raca, Cor, Peso)
         print(pets)
         
        
