@@ -19,19 +19,23 @@ while True:
         raca=input("Insira a raça:")
         cor=input("Insira a cor:")
         peso=float(input("Insira o peso:"))
-        pets[str(len(pets)+1)]= Gato(nome, idade, raca, cor, peso)
-        raca_escolhida = input("Digite a raça que deseja buscar: ").strip().lower()
-        encontrados = False
+        pets[len(pets)+1]= Gato(nome, idade, raca, cor, peso)
+        menu()
+        resp=int(input("---->"))
+
+       
+        
+    
+    elif resp ==2:
+            
+        escolhida=input("digite:")
 
         for chave, animal in pets.items():
-            if animal.getRaca().strip().lower() == raca_escolhida:
-                encontrados = True
+            if animal.getRaca().strip().lower() == escolhida:
+                
                 print(f"{chave}° - Nome: {animal.getNome()}")
                 print(f"\tIdade: {animal.getIdade()}")
                 print(f"\tRaça: {animal.getRaca()}")
                 print(f"\tCor: {animal.getCor()}")
                 print(f"\tPeso: {animal.getPeso()}kg\n")
-
-            
-       
-       
+        
